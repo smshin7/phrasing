@@ -27,7 +27,7 @@ MODULE
 namespace :phrasing do
   desc "Install the plugin, including the migration."
   task :install do
-    Rake::Task["phrasing_rails_engine:install:migrations"].invoke
+    #Rake::Task["phrasing_rails_engine:install:migrations"].invoke
     Rake::Task["phrasing:install_initializer"].invoke
     Rake::Task["phrasing:install_phrasing_helper"].invoke
   end
