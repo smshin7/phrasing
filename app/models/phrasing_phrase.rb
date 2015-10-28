@@ -1,4 +1,4 @@
-class PhrasingPhrase < ActiveRecord::Base
+class PhrasingPhrase
 
   validates_presence_of :key, :locale
 

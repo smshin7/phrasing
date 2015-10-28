@@ -1,4 +1,4 @@
-class PhrasingPhraseVersion < ActiveRecord::Base
+class PhrasingPhraseVersion
   belongs_to :phrasing_phrase
 
   def self.create_version(phrasing_phrase_id, value)
